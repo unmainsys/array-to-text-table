@@ -1,0 +1,20 @@
+{
+    "name": "unmainsys/arraytotexttable",
+    "description": "Display arrays in terminal",
+    "type": "library",
+    "keywords": [
+        "array",
+        "text",
+        "table",
+        "terminal",
+        "ascii",
+        "unicode"
+    ],
+    "autoload": {
+        "psr-4": {"Unmainsys\\Util\\": "src/"}
+    },
+    "require": {
+        "php": ">=8.0.0",
+        "ext-mbstring": "*"
+    }
+}
