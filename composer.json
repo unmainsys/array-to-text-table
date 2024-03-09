@@ -1,15 +1,9 @@
 {
-    "name": "unmainsys/arraytotexttable",
+    "name": "unmainsys/array-to-text-table",
     "description": "Display arrays in terminal",
     "type": "library",
-    "keywords": [
-        "array",
-        "text",
-        "table",
-        "terminal",
-        "ascii",
-        "unicode"
-    ],
+    "minimum-stability": "stable",
+    "keywords": ["array", "text", "table", "terminal", "ascii", "unicode"],
     "autoload": {
         "psr-4": {"Unmainsys\\Util\\": "src/"}
     },
