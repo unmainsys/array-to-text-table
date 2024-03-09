@@ -2,7 +2,7 @@
     "name": "unmainsys/array-to-text-table",
     "description": "Display arrays in terminal",
     "type": "library",
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "keywords": ["array", "text", "table", "terminal", "ascii", "unicode"],
     "autoload": {
         "psr-4": {"Unmainsys\\Util\\": "src/"}
