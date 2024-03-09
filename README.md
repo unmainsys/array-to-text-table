@@ -9,7 +9,7 @@ composer require unmainsys/array-to-text-table
 ```json
 {
     "require": {
-        "unmainsys/array-to-text-table": "0.0.1"
+        "unmainsys/array-to-text-table": "1.0.0"
     }
 }
 ```
