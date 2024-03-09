@@ -295,7 +295,7 @@ class ArrayToTextTable {
         $target_length = $pad_before && $pad_after ? $pad_length / 2 : $pad_length;
 
         $repeat_times = ceil($target_length / mb_strlen($pad_string, $encoding));
-        $repeated_string = str_repeat($pad_string, max(0, $repeat_times));
+        $repeated_string = str_repeat($pad_string, max(0, (int) $repeat_times));
         $before = $pad_before ? mb_substr($repeated_string, 0, (int) floor($target_length), $encoding) : '';
         $after = $pad_after ? mb_substr($repeated_string, 0, (int) ceil($target_length), $encoding) : '';
 
