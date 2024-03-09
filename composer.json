@@ -3,9 +3,18 @@
     "description": "Display arrays in terminal",
     "type": "library",
     "minimum-stability": "stable",
-    "keywords": ["array", "text", "table", "terminal", "ascii", "unicode"],
+    "keywords": [
+        "array",
+        "text",
+        "table",
+        "terminal",
+        "ascii",
+        "unicode"
+    ],
     "autoload": {
-        "psr-4": {"Unmainsys\\Util\\": "src/"}
+        "psr-4": {
+            "Unmainsys\\Util\\": "src/"
+        }
     },
     "require": {
         "php": ">=8.0.0",
