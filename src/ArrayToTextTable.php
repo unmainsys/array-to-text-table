@@ -281,9 +281,9 @@ class ArrayToTextTable {
         }
     }
 
-    protected static function valueToLines($value): array
+    protected static function valueToLines(mixed $value): array
     {
-        return explode("\n", $value);
+        return explode("\n", (string)$value);
     }
 
     protected static function mb_str_pad($input, $pad_length, $pad_string = ' ', $pad_type = STR_PAD_RIGHT, $encoding = null): string
